@@ -1,3 +1,4 @@
+//crud del backend
 const db = require("./firebase.js");
 
 // Obtener todos los expertos
