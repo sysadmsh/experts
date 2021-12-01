@@ -1,0 +1,19 @@
+{
+  "name": "tecnoavixx",
+  "version": "1.0.0",
+  "description": "Buscar expertos en programacion en todo el mundo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ciclo4ag3",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "firebase": "^9.4.0",
+    "firebase-admin": "^10.0.0"
+  }
+}
