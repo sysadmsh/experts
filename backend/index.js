@@ -3,7 +3,7 @@ const {getClientes}=require("c:/experts/experts/backend/src/db/crud.js");
 //const {getUsers}=require("c:/experts/experts/backend/src/db/crud.js");
  const express  = require('express');
  const app = express();
- const port =3000;
+ const port = process.env.PORT ||8080;
  
  app.use(express.json());
  

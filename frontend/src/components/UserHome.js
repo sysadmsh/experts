@@ -13,6 +13,12 @@ const UserHome = () => {
           <Stack gap={2} className="align-items-center">
             <Image src={Logo} width="1100px" height="400px" />
             <SearchBar />
+            <Stack gap={2} direction="horizontal" >
+              <h5>primera etiqueta</h5>
+              <h5>primera etiqueta</h5>
+              <h5>primera etiqueta</h5>
+              <h5>primera etiqueta</h5>
+            </Stack>    
           </Stack>
         </Col>
       </Row>

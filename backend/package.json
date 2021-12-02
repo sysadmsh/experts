@@ -15,5 +15,10 @@
     "express": "^4.17.1",
     "firebase": "^9.4.0",
     "firebase-admin": "^10.0.0"
-  }
+    
+  },
+  "engines": {
+    "node": "16.13.0",
+    "npm":"8.1.3"
+    }
 }
